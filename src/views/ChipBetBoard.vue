@@ -35,15 +35,15 @@ import {
   ref, reactive, onBeforeMount, onUnmounted,
 } from 'vue';
 
-const control = ref<HTMLDivElement | undefined>();
+const control = ref<HTMLDivElement>();
 
-const betData = reactive([
+const betData = [
   { text: 'BP' },
   { text: 'T' },
   { text: 'PP' },
   { text: 'BB' },
   { text: 'P' },
-]);
+];
 
 const chipData = [
   { CSS: 'blackUnFillChip', value: 110 },
