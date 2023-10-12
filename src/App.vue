@@ -1,7 +1,3 @@
 <template>
-  <ChipBetBoard />
+  <router-view />
 </template>
-
-<script setup lang="ts">
-import ChipBetBoard from '@/views/ChipBetBoard.vue';
-</script>

@@ -20,3 +20,8 @@ npm run build
 ## demo website
 
 https://demohowardw3.000webhostapp.com/
+
+
+## demo wheelgame
+
+https://demohowardw3.000webhostapp.com/wheelgame
