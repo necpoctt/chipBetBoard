@@ -1,0 +1,17 @@
+kind: pipeline
+type: exec
+name: chipBetBoard
+
+platform:
+  os: darwin
+  arch: amd64
+
+steps:
+  - name: build 
+    commands:
+      - npm i
+      - npm run build
+    when:
+      branch:
+        include:
+          - master
